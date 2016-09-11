@@ -5,4 +5,7 @@ My codes for the Joint IEEE SPS and EURASIP Summer School on Robust Signal Proce
 
 
 ### These codes uses shoebox room acoustic simulation program (Roomsim) created by Wabnitz et.al.
+
+Wabnitz, A., Epain, N., Jin, C., & Van Schaik, A. (2010, August). Room acoustics simulation for multichannel microphone arrays. In Proceedings of the International Symposium on Room Acoustics (pp. 1-6). 
+
 Link to RoomSim Page [Here](https://www.google.com)
