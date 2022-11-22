@@ -12,7 +12,7 @@ Link to MCRoomSim Page [Here](http://www.ee.usyd.edu.au/carlab/mcroomsim.htm)
 
 MCRoomSim helps to find Room Impulse Response(RIRs) between source and receiver in a user defined rectangular shoebox room of given size
 
-####Steps 
+#### Steps 
 
 1. StartSimulation.m sets the parameters, room size, source and receiver positions (by calling MCRoomSim), and gives RIRs to workspace. plot the RIRs and also plots the transucer constellation 3D plot.
 
