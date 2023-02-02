@@ -14,16 +14,16 @@ MCRoomSim helps to find Room Impulse Response(RIRs) between source and receiver 
 
 #### Steps 
 
+1. Sets the parameters, room size, source and receiver positions (by calling MCRoomSim), and gives RIRs to workspace. plot the RIRs and also plots the transducer constellation 3D plot
 ```console
-# Sets the parameters, room size, source and receiver positions (by calling MCRoomSim), and gives RIRs to workspace. plot the RIRs and also plots the transucer constellation 3D plot
 StartSimulation.m 
 ```
 
+2. Simulates the ANC experiment, gives out the error signal to workspace and plots it
 ```console
-# Simulates the ANC experiment, gives out the error signal to workspace and plots it
 ANCInAction.m 
 ```
+3. Plots the noise Power Spectral Density(PSD) levels before and after cancellation
 ```console
-# Plots the noise Power Spectral Density(PSD) levels before and after cancellation
 PSDPlotter.m
 ```
